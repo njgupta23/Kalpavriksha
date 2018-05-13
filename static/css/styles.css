@@ -1,0 +1,33 @@
+.navbar-light {
+    background-color: white;
+/*    border-bottom: lightgrey solid 2px;
+*/}
+
+.logo {
+    height: 120px;
+
+}
+
+.oi-cart:before {
+    height: 50px;
+}
+
+h1 {
+    font-family: 'Alex Brush', cursive;
+    color: lightgray;
+}
+
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin:0 auto;
+
+
+   /* position: absolute;
+    left: 50%;
+    transform: translatex(-50%);*/
+/*    margin-top: 30px;
+*/}

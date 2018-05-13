@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<nav class="navbar navbar-expand-lg navbar-light">
+
+  <div class="navbar-center">
+    <a class="navbar-brand" href="/"><img src="static/images/Logo-REV-NoBackground.png" class="logo img-fluid" alt="logo"></a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+
+
+  <div class="collapse navbar-collapse">
+
+
+    <div class="navbar-nav">
+        <a class="nav-item nav-link" href="#">Our Story</a>
+    </div>
+    <div class="collapse navbar-collapse justify-content-end" >
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="#">Log In</a>
+        <a class="nav-item nav-link" href="#"><span class="oi oi-cart" title="shopping cart" aria-hidden="true"></span>&nbsp;Cart</a> 
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <h1>From master artisans of India to your home...</h1>
+    </div>
+    <div class="row justify-content-center">
+        <a class="btn btn-outline-secondary" href="/shop" role="button">Shop the Collection</a>
+    </div>
+</div>
+
+
+<!-- <h2>hello</h2> -->
+
+{% endblock %}
