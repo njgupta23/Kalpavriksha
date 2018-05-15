@@ -4,40 +4,38 @@
 
 <nav class="navbar navbar-expand-lg navbar-light">
 
-  <div class="navbar-center">
-    <a class="navbar-brand" href="/"><img src="static/images/Logo-REV-NoBackground.png" class="logo img-fluid" alt="logo"></a>
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  </div>
-
-
-  <div class="collapse navbar-collapse">
-
-
-    <div class="navbar-nav">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="navbar-collapse collapse dual-nav w-100">
+    <div class="navbar-nav ml-5">
         <a class="nav-item nav-link" href="#">Our Story</a>
     </div>
+  </div>
+  
+  <a href="/" class="navbar-brand mx-auto d-block text-center w-100"><img src="static/images/Logo-REV-NoBackground.png" class="logo" alt="logo"></a>
+
+
+  <div class="navbar-collapse collapse dual-nav w-100">
     <div class="collapse navbar-collapse justify-content-end" >
-      <div class="navbar-nav">
+      <div class="navbar-nav mr-5">
         <a class="nav-item nav-link" href="#">Log In</a>
         <a class="nav-item nav-link" href="#"><span class="oi oi-cart" title="shopping cart" aria-hidden="true"></span>&nbsp;Cart</a> 
       </div>
     </div>
   </div>
+
 </nav>
 
-<div class="container">
+<div class="container main">
     <div class="row justify-content-center">
         <h1>From master artisans of India to your home...</h1>
     </div>
     <div class="row justify-content-center">
-        <a class="btn btn-outline-secondary" href="/shop" role="button">Shop the Collection</a>
+        <a class="btn btn-outline-secondary" id="shop-btn" href="/shop" role="button">Shop the Collection</a>
     </div>
 </div>
 
-
-<!-- <h2>hello</h2> -->
 
 {% endblock %}
